@@ -11,17 +11,17 @@ var waterBottle;
 var droplet;
 
 function preload() {
-  backgroundImage = loadImage("../assets/background.png");
-  runner1_img = loadAnimation("../assets/bluerun1.png","../assets/bluerun2.png", "../assets/bluerun3.png");
-  runner2_img = loadAnimation("../assets/greenrun1.png", "../assets/greenrun2.png", "../assets/greenrun3.png");
-  runner3_img = loadAnimation("../assets/purplerun1.png", "../assets/purplerun2.png", "../assets/purplerun3.png");
-  runner4_img = loadAnimation("../assets/redrun1.png", "../assets/redrun2.png", "../assets/redrun3.png");
-  track = loadImage("../assets/track.png");
-  obstacle1Image = loadImage("../assets/obstacle1.png");
-  obstacle2Image = loadImage("../assets/obstacle2.png");
-  lifeImage = loadImage("../assets/life.png");
-  waterbottleImg = loadImage("../assets/water.png");
-  dropletImg = loadImage("../assets/droplet.png");
+  backgroundImage = loadImage("assets/background.png");
+  runner1_img = loadAnimation("assets/bluerun1.png","assets/bluerun2.png", "assets/bluerun3.png");
+  runner2_img = loadAnimation("assets/greenrun1.png", "assets/greenrun2.png", "assets/greenrun3.png");
+  runner3_img = loadAnimation("assets/purplerun1.png", "assets/purplerun2.png", "assets/purplerun3.png");
+  runner4_img = loadAnimation("assets/redrun1.png", "assets/redrun2.png", "assets/redrun3.png");
+  track = loadImage("assets/track.png");
+  obstacle1Image = loadImage("assets/obstacle1.png");
+  obstacle2Image = loadImage("assets/obstacle2.png");
+  lifeImage = loadImage("assets/life.png");
+  waterbottleImg = loadImage("assets/water.png");
+  dropletImg = loadImage("assets/droplet.png");
 }
 
 
